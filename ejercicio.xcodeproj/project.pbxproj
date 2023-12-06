@@ -14,6 +14,7 @@
 		9B9559D32B1FE6FA00DB7540 /* ejercicioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9559D22B1FE6FA00DB7540 /* ejercicioTests.swift */; };
 		9B9559DD2B1FE6FA00DB7540 /* ejercicioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9559DC2B1FE6FA00DB7540 /* ejercicioUITests.swift */; };
 		9B9559DF2B1FE6FA00DB7540 /* ejercicioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9559DE2B1FE6FA00DB7540 /* ejercicioUITestsLaunchTests.swift */; };
+		9B9559EE2B1FEB2A00DB7540 /* UIelements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9559ED2B1FEB2A00DB7540 /* UIelements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9B9559D82B1FE6FA00DB7540 /* ejercicioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejercicioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9559DC2B1FE6FA00DB7540 /* ejercicioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicioUITests.swift; sourceTree = "<group>"; };
 		9B9559DE2B1FE6FA00DB7540 /* ejercicioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B9559ED2B1FEB2A00DB7540 /* UIelements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIelements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,8 @@
 			children = (
 				9B9559C12B1FE6F400DB7540 /* ejercicioApp.swift */,
 				9B9559C32B1FE6F400DB7540 /* ContentView.swift */,
+				9B9559EC2B1FEA5B00DB7540 /* Model */,
+				9B9559EB2B1FEA2300DB7540 /* Views */,
 				9B9559C52B1FE6FA00DB7540 /* Assets.xcassets */,
 				9B9559C72B1FE6FA00DB7540 /* Preview Content */,
 			);
@@ -125,6 +129,21 @@
 				9B9559DE2B1FE6FA00DB7540 /* ejercicioUITestsLaunchTests.swift */,
 			);
 			path = ejercicioUITests;
+			sourceTree = "<group>";
+		};
+		9B9559EB2B1FEA2300DB7540 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B9559ED2B1FEB2A00DB7540 /* UIelements.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B9559EC2B1FEA5B00DB7540 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9559EE2B1FEB2A00DB7540 /* UIelements.swift in Sources */,
 				9B9559C42B1FE6F400DB7540 /* ContentView.swift in Sources */,
 				9B9559C22B1FE6F400DB7540 /* ejercicioApp.swift in Sources */,
 			);
