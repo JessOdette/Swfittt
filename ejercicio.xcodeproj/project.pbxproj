@@ -15,6 +15,10 @@
 		9B9559DD2B1FE6FA00DB7540 /* ejercicioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9559DC2B1FE6FA00DB7540 /* ejercicioUITests.swift */; };
 		9B9559DF2B1FE6FA00DB7540 /* ejercicioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9559DE2B1FE6FA00DB7540 /* ejercicioUITestsLaunchTests.swift */; };
 		9B9559EE2B1FEB2A00DB7540 /* UIelements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9559ED2B1FEB2A00DB7540 /* UIelements.swift */; };
+		9B9EF15F2B2283E4003287A9 /* ProfileDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF15E2B2283E4003287A9 /* ProfileDescription.swift */; };
+		9B9EF1612B228B00003287A9 /* ProfileNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF1602B228B00003287A9 /* ProfileNavigation.swift */; };
+		9B9EF1632B228BED003287A9 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF1622B228BED003287A9 /* ProjectDetailView.swift */; };
+		9B9EF1652B229362003287A9 /* MySocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF1642B229362003287A9 /* MySocialMedia.swift */; };
 		9BA238C72B212EB300A0F6DD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA238C62B212EB300A0F6DD /* Person.swift */; };
 		9BA238C92B212FBA00A0F6DD /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA238C82B212FBA00A0F6DD /* Project.swift */; };
 		9BA238CB2B21304C00A0F6DD /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA238CA2B21304C00A0F6DD /* SocialMedia.swift */; };
@@ -50,6 +54,10 @@
 		9B9559DC2B1FE6FA00DB7540 /* ejercicioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicioUITests.swift; sourceTree = "<group>"; };
 		9B9559DE2B1FE6FA00DB7540 /* ejercicioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B9559ED2B1FEB2A00DB7540 /* UIelements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIelements.swift; sourceTree = "<group>"; };
+		9B9EF15E2B2283E4003287A9 /* ProfileDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDescription.swift; sourceTree = "<group>"; };
+		9B9EF1602B228B00003287A9 /* ProfileNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigation.swift; sourceTree = "<group>"; };
+		9B9EF1622B228BED003287A9 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		9B9EF1642B229362003287A9 /* MySocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySocialMedia.swift; sourceTree = "<group>"; };
 		9BA238C62B212EB300A0F6DD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9BA238C82B212FBA00A0F6DD /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		9BA238CA2B21304C00A0F6DD /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
@@ -144,6 +152,10 @@
 			children = (
 				9B9559ED2B1FEB2A00DB7540 /* UIelements.swift */,
 				9BA238CC2B21392A00A0F6DD /* PersonProfilePicture.swift */,
+				9B9EF15E2B2283E4003287A9 /* ProfileDescription.swift */,
+				9B9EF1602B228B00003287A9 /* ProfileNavigation.swift */,
+				9B9EF1622B228BED003287A9 /* ProjectDetailView.swift */,
+				9B9EF1642B229362003287A9 /* MySocialMedia.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,11 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9EF15F2B2283E4003287A9 /* ProfileDescription.swift in Sources */,
 				9B9559EE2B1FEB2A00DB7540 /* UIelements.swift in Sources */,
 				9B9559C42B1FE6F400DB7540 /* ContentView.swift in Sources */,
 				9BA238C72B212EB300A0F6DD /* Person.swift in Sources */,
+				9B9EF1632B228BED003287A9 /* ProjectDetailView.swift in Sources */,
 				9BA238CB2B21304C00A0F6DD /* SocialMedia.swift in Sources */,
+				9B9EF1652B229362003287A9 /* MySocialMedia.swift in Sources */,
 				9BA238CD2B21392A00A0F6DD /* PersonProfilePicture.swift in Sources */,
+				9B9EF1612B228B00003287A9 /* ProfileNavigation.swift in Sources */,
 				9BA238C92B212FBA00A0F6DD /* Project.swift in Sources */,
 				9B9559C22B1FE6F400DB7540 /* ejercicioApp.swift in Sources */,
 			);
@@ -466,7 +482,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comJessi.ejercicio;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ejercicio;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -494,7 +510,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comJessi.ejercicio;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ejercicio;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
